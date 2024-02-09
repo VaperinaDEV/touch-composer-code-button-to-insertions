@@ -12,6 +12,7 @@ export default {
           toolbar.addButton({
             id: "code",
             group: "insertions",
+            icon: "code",
             preventFocus: true,
             trimLeading: true,
             action: "formatCode",
