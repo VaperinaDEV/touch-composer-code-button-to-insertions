@@ -15,7 +15,7 @@ export default {
             icon: "code",
             preventFocus: true,
             trimLeading: true,
-            action: () => toolbar.context.send("formatCode"),
+            perform: (e) => e.formatCode(),
           });
         });
       }
